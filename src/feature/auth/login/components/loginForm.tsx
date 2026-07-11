@@ -117,7 +117,7 @@ export default function LoginForm() {
             <div className="space-y-6">
               {/* Header */}
               <div className="space-y-2">
-                <h1 className="text-3xl font-poppins font-semibold text-primary tracking-tight text-center">
+                <h1 className="text-3xl font-sans font-bold text-primary tracking-tight text-center">
                   Welcome Back!
                 </h1>
                 <p className="text-sm text-primary text-center">
@@ -197,7 +197,7 @@ export default function LoginForm() {
                 <button
                   type="submit"
                   disabled={isLoading}
-                  className="w-full bg-brand hover:bg-brand-hover disabled:bg-muted disabled:text-muted-foreground text-primary-foreground font-semibold py-2.5 rounded-lg transition duration-200 mt-4 shadow-md hover:shadow-lg text-sm"
+                  className="w-full bg-primary hover:bg-primary/80 disabled:bg-muted disabled:text-muted-foreground text-primary-foreground font-semibold py-2.5 rounded-lg transition duration-200 mt-4 shadow-md hover:shadow-lg text-sm"
                 >
                   {isLoading ? "Signing in..." : "Sign In"}
                 </button>
