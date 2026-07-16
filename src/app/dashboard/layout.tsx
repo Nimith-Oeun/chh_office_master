@@ -29,7 +29,7 @@ export default async function DashboardLayout({ children }: { children: React.Re
               <SidebarProvider defaultOpen={defaultOpen}>
                   <AppSidebar />
                   <SidebarInset>
-                  <Header />
+                  <Header/>
                   {/* <InfobarProvider defaultOpen={false}> */}
                       {children}
                       {/* <InfoSidebar side='right' /> */}
